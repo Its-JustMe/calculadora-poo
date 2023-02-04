@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Meta Tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/index.css">
+    <!--Scripts-->
+    <script charset="UTF-8" src="./js/index.js" type="module" defer></script>
+
+    <title>Calculadora com POO</title>
+</head>
+<body>
+    <header>
+        <h2>Calculadora feita com JavaScrpit Orientado a Objetos</h1>
+    </header>
+    <section>
+        <h2>Calculadora Básica</h2>
+        <form name="calculadora">
+                <div class="calculo">
+                    <div>
+                        <input type="number" name="n1" value="0" class="num" id="InptN1" placeholder="a:">
+                    </div>
+                    <div>
+                        <select class="num op" name="op" id="InptOp">
+                            <option value="+" selected>+</option>
+                            <option value="-">-</option>
+                            <option value="*">x</option>
+                            <option value="/">&#xf7</option><!--símbolo de divisão-->
+                            <option value="%">%</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="number" value="0" name="n2" class="num" id="InptN2" placeholder="b:">
+                    </div>
+                    <div class="botao-igual">
+                        <button type="button" class="calcular" id="calcularOp">=</button>
+                    </div>
+                    <div class="num" id="resultado"><!--Resultado será mostrado aqui--></div>
+                </div>
+        </form>
+    </section>
+    <section>
+        <h2>Calculadora de Área de Figuras</h2>
+        <form name="calcArea">
+            <div>
+                <p class="res">
+                    Calcule a área de um 
+                    <select class="num figura" name="figura" id="InptFig">
+                        <option value="quadrado" selected>Quadrado</option>
+                        <option value="retângulo">Retângulo</option>
+                        <option value="triângulo">Triângulo</option>
+                    </select>
+                    de base igual à
+                    <input type="number" name="base" id="InptV1" class="num medida">
+                    e altura igual à
+                    <input type="number" name="altura" id="InptV2" class="num medida">
+                </p>
+            </div>
+            <div class="erro" id="erro-container"><!--Mensagem de erro--></div>
+            <div class="container-btn">
+                <button type="button" class="calcular" id="calcularArea">Calcular</button>
+            </div>
+            <div id="mostrarArea"><!--Aqui será mostrado o cálculo da área--></div>
+        </form>
+    </section>
+    <section>
+        <h2>Calculadora de Fatorial</h2>
+        <form name="fatorial">
+            <div class="flex">
+                <div>
+                    <p class="res">
+                        Calcule o Fatorial de
+                        <input type="number" class="num num-fat" minv="0" value="0" name="numero" id="txtnum">
+                    </p>
+                </div>
+                <div>
+                    <button type="button" class="calcular" name="calcularFatorial" id="calcularFat">Calcular</button>
+                </div>
+            </div>
+            <div id="mostrarFatorial"><!--Aqui será mostrado o fatorial--></div>
+        </form>
+    </section>
+    <footer>
+        <p>
+            Obrigado por usar minha calculadora! Se tiver gostado
+            do projeto, sinta-se livre para olhar outros repositórios no meu
+            <a href="">Github</a>.
+        </p>
+    </footer>
+</body>
+</html>
