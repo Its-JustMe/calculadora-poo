@@ -121,6 +121,7 @@ button.calcular#calcularFat {
     min-width: 100px;
     max-width: 120px;
     margin: 0;
+    margin-bottom: 8px;
 }
 div.container-btn {
     width: 120px;
