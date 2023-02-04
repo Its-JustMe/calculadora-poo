@@ -164,7 +164,7 @@ div.botao-igual {
 }
 .flex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
 }
 .num-fat {
