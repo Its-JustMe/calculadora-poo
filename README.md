@@ -7,7 +7,8 @@
 <h2> ➢ Um simples estudo </h2>
 <p> 
   Esta página foi feita com o objetivo de estudar e treinar a aplicação
-  de uma simples calculadora feita com HTML e JavaScript.
+  de uma simples calculadora feita com HTML e JavaScript (utilizando conceitos
+  de Orientaço a Objetos)
 </p>
 <p>
   Você pode acessar o site clicando neste link: https://calculadora-poo.vercel.app/
