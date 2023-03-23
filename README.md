@@ -1,6 +1,6 @@
 <h1> Calculadora com JavaScript </h1>
 
-<img src="./imgs/site.png">
+<img src="site.png">
 
 <h2>Estudo sobre operadores e eventos DOM</h2>
 
@@ -10,7 +10,7 @@
   de uma simples calculadora feita com HTML e JavaScript.
 </p>
 <p>
-  Você pode acessar o site clicando neste link: https://navbar-responsiva.vercel.app/
+  Você pode acessar o site clicando neste link: https://calculadora-poo.vercel.app/
 </p>
 
 <h3> ➢ Outras informações </h3>
